@@ -40,12 +40,12 @@ Enforce a style policy to _always_ use `<template v-if` and `<template v-for` (o
 Go a step further and use the words you actually want to use at the beginning of those lines:
 
 ```html
-<if v-if="isReady">
+<If v-if="isReady">
     <p class="paragraph my-theme" data-test="content-paragraph-test">Ipsum lorem ... </p>
-</if>
-<else v-else>
+</If>
+<Else v-else>
     <span>Sorry, not ready.</span>
-</else>
+</Else>
 ```
 
  * Indentation is right 
@@ -53,7 +53,30 @@ Go a step further and use the words you actually want to use at the beginning of
  * You don't have to use `<template>` elements for 5 different purposes.
  * You don't have to search for directives among lists of other similar-looking html attributes.
 
+## Usage
 
- 
+### Install 
+```bash
+yarn add vue-logically
+```
 
+### Include Globally 
+```javascript
+import VueLogically from 'vue-logically';
+Vue.use(VueLogically);
+```
 
+### The Components 
+
+These are the dumbest components around. Nothing prevents you from misusing them and mixing directives up. 
+They are literally just a way to use a different label for `<template>`.
+
+```html
+<If v-if="condition"></If>
+
+<ElseIf v-else-if="condition"></ElseIf>
+
+<Else v-else="condition"></Else>
+
+<For v-for="item of list"></For>
+```

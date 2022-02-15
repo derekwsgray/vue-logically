@@ -3,6 +3,6 @@
 </template>
 <script>
 export default /*#__PURE__*/{
-  name: 'else'
+  name: 'Else'
 }
 </script>
