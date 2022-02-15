@@ -80,3 +80,5 @@ They are literally just a way to use a different label for `<template>`.
 
 <For v-for="item of list"></For>
 ```
+
+Run `yarn serve` to see each one in use (`./dev/serve.vue`).
