@@ -76,7 +76,7 @@ They are literally just a way to use a different label for `<template>`.
 
 <ElseIf v-else-if="condition"></ElseIf>
 
-<Else v-else="condition"></Else>
+<Else v-else></Else>
 
 <For v-for="item of list"></For>
 ```
