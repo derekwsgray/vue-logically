@@ -1,6 +1,6 @@
 {
   "name": "vue-logically",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Logical components for increasing the readability of template conditionals and loops.",
   "homepage": "https://github.com/derekwsgray/vue-logically#readme",
   "repository": {
@@ -11,6 +11,7 @@
     "name": "Derek W. S. Gray",
     "url": "https://github.com/derekwsgray"
   },
+  "keywords": ["vue"],
 
   "main": "dist/vue-logically.common.js",
   "browser": "dist/vue-logically.esm.js",
