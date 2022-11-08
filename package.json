@@ -1,6 +1,6 @@
 {
   "name": "vue-logically",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Logical components for increasing the readability of template conditionals and loops.",
   "homepage": "https://github.com/derekwsgray/vue-logically#readme",
   "repository": {
