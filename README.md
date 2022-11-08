@@ -89,3 +89,14 @@ They are literally just a way to use a different label for `<template>`.
 ```
 
 Run `yarn serve` to see each one in use (`./dev/serve.vue`).
+
+### Development 
+
+```bash 
+yarn build
+```
+
+Serve the test application (`dev/serve.js`) on localhost:
+```bash 
+yarn serve
+```

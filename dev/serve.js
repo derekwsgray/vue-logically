@@ -5,8 +5,7 @@ import Dev from './serve.vue';
 import VueLogically from '@/entry.esm';
 
 
-Vue.config.productionTip = false;
-
 const app = createApp(Dev);
+app.config.productionTip = false;
 app.use(VueLogically);
 app.mount('#app');

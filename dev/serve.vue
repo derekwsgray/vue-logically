@@ -1,21 +1,12 @@
-<script>
-import Vue from 'vue';
+<script setup>
 // Uncomment import and local "components" registration if library is not registered globally.
 // import { If, Else } from '@/entry.esm';
 
-export default Vue.extend({
-  name: 'ServeDev',
-  // components: {
-  //  If, Else
-  // }
-  data() {
-    return {
-      isFoo: false,
-      isBar: false,
-      myList: ['a', 'b', 'c']
-    }
-  }
-});
+
+let isFoo = false;
+let isBar = false;
+let myList = ['a', 'b', 'c'];
+
 </script>
 
 <template>
