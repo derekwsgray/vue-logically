@@ -55,15 +55,22 @@ Go a step further and use the words you actually want to use at the beginning of
 
 ## Usage
 
-### Install 
+### Install (Vue 3)
 ```bash
 yarn add vue-logically
+```
+
+### Install (Vue 2)
+```bash
+yarn add vue-logically@0.0.2
 ```
 
 ### Include Globally 
 ```javascript
 import VueLogically from 'vue-logically';
-Vue.use(VueLogically);
+
+//...const app = createApp(...)
+app.use(VueLogically);
 ```
 
 ### The Components 

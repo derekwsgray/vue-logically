@@ -3,9 +3,9 @@
 import * as components from '@/lib-components/index';
 
 // install function executed by Vue.use()
-const install = function installVueLogically(Vue) {
+const install = (app, options) => {
   Object.entries(components).forEach(([componentName, component]) => {
-    Vue.component(componentName, component);
+    app.component(componentName, component);
   });
 };
 
@@ -13,5 +13,5 @@ const install = function installVueLogically(Vue) {
 export default install;
 
 // To allow individual component use, export components
-// each can be registered via Vue.component()
+// each can be registered via app.component()
 export * from '@/lib-components/index';
