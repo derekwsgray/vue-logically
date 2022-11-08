@@ -1,10 +1,10 @@
 
 // Import vue components
-import * as components from '@/lib-components/index';
+import pluginComponents from '@/lib-components/index';
 
 // install function executed by app.use()
 const install = (app, options) => {
-  Object.entries(components).forEach(([componentName, component]) => {
+  Object.entries(pluginComponents).forEach(([componentName, component]) => {
     app.component(componentName, component);
   });
 };
